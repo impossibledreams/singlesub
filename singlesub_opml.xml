@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#
+#   SingleSub v0.1.1
+#   Written by Yakov Shafranovich
+#
+#   A Project of SolidMatrix Research
+#   Website: http://singlesub.sourceforge.net
+#   Email:  research@solidmatrix.com
+#   
+#   Copyright (C) 2005 SolidMatrix Technologies, Inc.
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+-->
+<opml version="1.0">
+<head>
+    <title>List of Aggregator Subscribe URLs</title>
+    <dateCreated>Sun, 16 Oct 2005 19:01:25 GMT</dateCreated>
+    <dateModified>Sun, 30 Oct 2005 21:12:00 GMT</dateModified>
+    <ownerName>Yakov Shafranovich</ownerName>
+    <ownerEmail>code@shaftek.org</ownerEmail>
+</head>
+<body>
+    <outline text="Browsers">
+        <outline text="Opera" htmlUrl="http://www.opera.com/"
+		type="subscribe" subscribeUrl=""
+		escaped="false"/>
+    </outline>
+    <outline text="Desktop">
+        <outline text="AmphetaDesk" htmlUrl="http://www.disobey.com/amphetadesk/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:8888/index.html?add_url="
+		iconUrl="http://www.disobey.com/amphetadesk/images/xml_pill.gif"
+		escaped="true"/>
+        <outline text="Awasu" htmlUrl="http://www.awasu.com/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:2604/subscribe?url="
+		escaped="true"/>
+        <outline text="BottomFeeder" htmlUrl="http://www.cincomsmalltalk.com/BottomFeeder/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:8666/btf?rss="
+		escaped="true"/>
+        <outline text="FeedDemon" htmlUrl="http://www.bradsoft.com/feeddemon/"
+		type="subscribe" subscribeUrl="feed:"
+		escaped="false"/>
+        <outline text="Gush" htmlUrl="http://www.2entwine.com/"
+		type="subscribe" subscribeUrl="feed:"
+		escaped="false"/>
+        <outline text="Headline Viewer" htmlUrl="http://www.headlineviewer.com/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:8900/add_provider?url="
+		escaped="true"/>
+        <outline text="NetNewsWire" htmlUrl="http://ranchero.com/netnewswire/"
+		type="subscribe" subscribeUrl="feed:"
+		escaped="false"/>
+        <outline text="NewsMonster" htmlUrl="http://www.newsmonster.org/"
+		type="subscribe" subscribeUrl="newsmonster-subscription:"
+		escaped="false"/>
+        <outline text="NewzCrawler" htmlUrl="http://www.newzcrawler.com/"
+		type="subscribe" subscribeUrl="feed:"
+		escaped="false"/>
+        <outline text="NNTP//RSS" htmlUrl="http://www.methodize.org/nntprss/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:7810/?action=addform&amp;URL="
+		escaped="true"/>
+        <outline text="Python Desktop Server" htmlUrl="http://pyds.muensterland.org/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:4334/aggregator/add_redir?url="
+		escaped="true"/>
+        <outline text="Radio UserLand" htmlUrl="http://radio.userland.com/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:5335/system/pages/subscriptions?url="
+		iconUrl="http://radio.weblogs.com/0001015/images/xmlCoffeeCup.gif"
+		escaped="true"/>
+        <outline text="RSS Bandit" htmlUrl="http://www.rssbandit.org/"
+		type="subscribe" subscribeUrl="feed:"
+		escaped="false"/>
+        <outline text="SharpReader" htmlUrl="http://www.sharpreader.net/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:5335/system/pages/subscriptions?url="
+		escaped="true"/>
+        <outline text="Shrook" htmlUrl="http://www.fondantfancies.com/apps/shrook/"
+		type="subscribe" subscribeUrl="feed:"
+		escaped="false"/>
+        <outline text="Syndirella" htmlUrl="http://www.yole.ru/projects/syndirella/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:5335/system/pages/subscriptions?url="
+		escaped="true"/>
+        <outline text="Vox Lite" htmlUrl="http://www.stevenwood.org/stories/2003/06/08/voxLite.htm"
+		type="subscribe" subscribeUrl="feed:"
+		escaped="false"/>
+        <outline text="Wildgrape Newsdesk" htmlUrl="http://www.wildgrape.net/"
+		type="subscribe" subscribeUrl="http://127.0.0.1:8888/NewsDesk.html?add_url="
+		escaped="true"/>
+        <outline text="WinRSS" htmlUrl="http://www.brindys.com/winrss/"
+		type="subscribe" subscribeUrl="rss://addrss/"
+		escaped="true"/>
+    </outline>
+    <outline text="Web-based">
+        <outline text="BlogLines" htmlUrl="http://www.bloglines.com/"
+		type="subscribe" subscribeUrl="http://www.bloglines.com/sub/"
+		iconUrl="http://www.bloglines.com/images/sub_modern2.gif"
+		escaped="false"/>
+        <outline text="Bot A Blog" htmlUrl="http://www.botablog.com/"
+		type="subscribe" subscribeUrl="http://www.botablog.com/botthisblog.php?blog="
+		escaped="true"/>
+        <outline text="FeedMarker" htmlUrl="http://www.feedmarker.com/"
+		type="subscribe" subscribeUrl="http://www.feedmarker.com/admin.php?do=add_feed&amp;url="
+		escaped="true"/>
+	<outline text="Google Reader" htmlUrl="http://reader.google.com"
+		type="subscribe" subscribeUrl="http://www.google.com/reader/preview/*/feed/"
+		escaped="false"/>
+        <outline text="IzyNews" htmlUrl="http://www.izynews.com/en/"
+		type="subscribe" subscribeUrl="http://izynews.com/qs.aspx?s="
+		escaped="true"/>
+        <outline text="MobileRSS" htmlUrl="http://www.mobilerss.com/"
+		type="subscribe" subscribeUrl="http://www.mobilerss.net/fastfeed.php?url="
+		escaped="true"/>
+        <outline text="My MSN" htmlUrl="http://my.msn.com/"
+		type="subscribe" subscribeUrl="http://my.msn.com/addtomymsn.armx?id=rss&amp;ut="
+		iconUrl="http://sc.msn.com/c/rss/rss_mymsn.gif"
+		escaped="true"/>		
+        <outline text="My Yahoo" htmlUrl="http://my.yahoo.com/"
+		type="subscribe" subscribeUrl="http://add.my.yahoo.com/rss?url="
+		iconUrl="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif"
+		escaped="true"/>
+        <outline text="NewsGator Online" htmlUrl="http://www.newsgator.com/ngs/default.aspx"
+		type="subscribe" subscribeUrl="http://services.newsgator.com/subscriber/subext.aspx?url="
+		iconUrl="http://www.newsgator.com/images/ngsub2.gif"
+		escaped="true"/>
+        <outline text="NewsMob" htmlUrl="http://www.newsmob.com"
+		type="subscribe" subscribeUrl="http://www.newsmob.com/step2.php?url="
+		escaped="true"/>
+        <outline text="Pluck Web Edition" htmlUrl="http://www.pluck.com"
+		type="subscribe" subscribeUrl="http://client.pluck.com/pluckit/prompt.aspx?GCID=C12286x053&amp;a="
+		iconUrl="http://www.pluck.com/images/pluck/pluspluck.png"
+		escaped="true"/>		
+        <outline text="Rojo" htmlUrl="http://www.rojo/"
+		type="subscribe" subscribeUrl="http://www.rojo.com/add-subscription?resource="
+		iconUrl="http://rojo.jot.com/WikiHome/RojoTour/Images/rojo-long-chicklet-plain.gif"
+		escaped="true"/>
+        <outline text="RssFwd" htmlUrl="http://www.rssfwd.com"
+		type="subscribe" subscribeUrl="http://rails.yanime.org/rssfwd/preview?url="
+		escaped="true"/>
+        <outline text="WINKSite" htmlUrl="http://www.winksite.com"
+		type="subscribe" subscribeUrl="http://winksite.com/site/quick_add_logon_form.cfm?partner_name=&amp;feed_url="
+		escaped="true"/>
+    </outline>
+    <outline text="Other">
+        <outline text="FeedValidator" htmlUrl="http://www.feedvalidator.com/"
+		type="subscribe" subscribeUrl="http://feedvalidator.org/check?url="
+		escaped="true"/>
+        <outline text="Syndic8.com" htmlUrl="http://www.syndic8.com.com"
+		type="subscribe" subscribeUrl="http://www.syndic8.com/feedlist.php?ShowMatch="
+		escaped="true"/>
+        <outline text="Technorati" htmlUrl="http://www.technorati.com/"
+		type="subscribe" subscribeUrl="http://www.technorati.com/cosmos/links.html?rank=&amp;url="
+		escaped="true"/>
+    </outline>
+</body>
+</opml>

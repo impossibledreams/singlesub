@@ -1,0 +1,91 @@
+-------------------------------------------------
+INSTALLATION INSTRUCTIONS FOR singlesub v0.1.1
+Written by Yakov Shafranovich
+
+Copyright (C) 2005 SolidMatrix Technologies, Inc.
+All rights reserved, see COPYING file for more.
+
+A Project of SolidMatrix Research
+Website: http://track2rss.sourceforge.net
+Email:  research@solidmatrix.com
+-------------------------------------------------
+
+singlesub is designed to run within a webserver. The package
+contains the following files:
+
+cgi_buffer.pm - external module for gzip support
+singlesub.pl - Perl wrapper script
+singlesub_opml.xml - OPML list of aggregator information, same as produced by the OPML template
+test.in - testing data
+IO/string.pm - external module for gzip support
+templates/chicklet.xsl - XSLT template for producing chicklets
+templates/html.xsl - XSLT template for producing an HTML subscribe form
+templates/opml.xsl - XSLT template for an OPML list of aggregator information
+templates/quicksub.xsl - XSLT template for producing a modified copy of QuickSub javascript
+templates/rdf.xsl - XSLT template for an RDF list of aggregator information
+templates/rss2.xsl - XSLT template for an RSS 2.0 list of aggregator information
+
+-------------------------------------------------
+I. REQUIRED PREREQUISITES.
+-------------------------------------------------
+
+In order to install singlesub on your server, you must have
+the following:
+
+1. Perl v5 or later (http://www.perl.org).
+You can check if you have perl installed by typing "perl -v" into
+the command line.
+
+2. A webserver that supports Perl scripts.
+
+3. The following Perl modules (you can check if you have them by running
+perl -mMODULE_NAME):
+a. CGI and CGI::Carp - needed for processing input parameters, standard
+with most installations.
+b. Crypt::SSLeay OR  IO::Socket::SSL - this is needed by LWP to process
+HTTPS requests, see README.SSL in the LWP distribution.
+c. LWP - needed for sending requests to UPS, standard with most
+installations.
+d. XML::LibXML and XML::LibXSLT - interface to GNOME's libXML/libXSLT
+libraries.
+
+-------------------------------------------------
+II. INSTALLATION INSTRUCTION.
+-------------------------------------------------
+
+1. Create a directory on your webserver where you are going to install
+this program. For some systems, this must be within the CGI-BIN directory
+in order for the script to execute.
+
+2. Extract all of the files provided into that directory.
+
+3. If you are running on a UNIX or Linux system, execute the following command
+to set proper permissions:
+
+chmod 755 singlesub.pl
+
+4. Execute the following commands in command shell to verify installation:
+
+perl track2rss.pl <test.in
+
+You should get Javascript output in your shell.
+
+5. Try to execute the script from your webserver by running the following command
+(substitute the code in brackets for your server and directory):
+
+[http://www.example.com/dir/]singlesub.pl?type=opml
+[http://www.example.com/dir/]singlesub.pl?type=rss2
+[http://www.example.com/dir/]singlesub.pl?type=rdf
+[http://www.example.com/dir/]singlesub.pl?type=quicksub
+[http://www.example.com/dir/]singlesub.pl?type=chicklet&feed=http://sourceforge.net/export/rss2_projnews.php?group_id=151486
+[http://www.example.com/dir/]singlesub.pl?type=html&feed=http://sourceforge.net/export/rss2_projnews.php?group_id=151486
+
+-------------------------------------------------
+IV. ADDITIONAL INFORMATION.
+-------------------------------------------------
+
+For troubleshooting and more information about this project, please see 
+the project website at http://singlesub.sourceforge.net.
+
+-------------------------------------------------
+END-OF-FILE
