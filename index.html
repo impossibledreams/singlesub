@@ -60,11 +60,12 @@ formats: OPML, RSS 2.0 and RDF. The formats are described below:
 </p>
 <h4 align="left">1. OPML format.</h4>
 <p>To access this service, use the following URL: <b><a href="http://www.shaftek.org/code/singlesub/singlesub.pl?type=opml">http://www.shaftek.org/code/singlesub/singlesub.pl?type=opml</a></b>. Different
-aggregators are sorted by categories (desktop, web-based and other). Within each <b>outline</b> OPML element, the following information
+aggregators are sorted by categories (desktop, web-based and other). Aside from this web service, you can also access the latest
+version directly from CVS by clicking <a href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/singlesub/perl/singlesub_opml.xml?rev=HEAD">here</a>. Within each <b>outline</b> OPML element, the following information
 is provided:
 </p>
 <ul>
-<li><b>title</b> - name of the aggregator or service (<i>required</i>)</li>
+<li><b>text</b> - name of the aggregator or service (<i>required</i>)</li>
 <li><b>htmlUrl</b> - website for the aggregator or service (<i>required</i>)</li>
 <li><b>type</b> - always set to <b>'subscribe'</b> (<i>required</i>)</li>
 <li><b>subscribeUrl</b> - URL used for subscribing [just append the feed url to the end] (<i>required</i>)</li>
