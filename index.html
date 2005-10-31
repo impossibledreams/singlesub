@@ -91,7 +91,8 @@ Within each <b>item</b> RSS 2.0 element, the following information is provided:
 <h4 align="left">3. RDF format.</h4>
 <p>To access this service, use the following URL: <b><a href="http://www.shaftek.org/code/singlesub/singlesub.pl?type=rdf">http://www.shaftek.org/code/singlesub/singlesub.pl?type=rdf</a></b>.
 The format used for each RDF element is defined by the <a href="http://purl.org/net/syndication/subscribe/">Syndication Subscription Service</a> (see that
-page for more information).
+page for more information). You can also optionally provide a URL to external OPML file in the format described above to be used
+for generating this list INSTEAD of the default file. This can be done by passing it as a <b>"opml_url="</b> parameter.
 </p>
 <hr/>
 <h2 align="left">Services for Publishers (hosted externally)</h2>
@@ -100,7 +101,8 @@ page for more information).
 <p>To access this service, use the following URL: <b><a href="http://www.shaftek.org/code/singlesub/singlesub.pl?type=quicksub">http://www.shaftek.org/code/singlesub/singlesub.pl?type=quicksub</a></b>.
 This is Jason Brome's <a href="http://www.methodize.org/quicksub/">QuickSub utility</a>, however I modified it to automatically
 generate the subscribe URLs from the OPML list that I keep. Simply follow instructions at the <a href="http://www.methodize.org/quicksub/">QuickSub</a>
-website BUT substitute the URL provided by me above in step #2 instead of Jason's. Here is a test feed:
+website BUT substitute the URL provided by me above in step #2 instead of Jason's. You can also optionally provide a URL to external OPML file in the format described above to be used
+for generating this list INSTEAD of the default file. This can be done by passing it as a <b>"opml_url="</b> parameter. Here is a test feed:
 <br/><br/>
 <a href="http://sourceforge.net/export/rss2_projnews.php?group_id=151486" onmouseout="return timeqs();" onmouseover="return quicksub(this, 'http://sourceforge.net/export/rss2_projnews.php?group_id=151486');">Test Feed</a>
 </p>
@@ -108,7 +110,8 @@ website BUT substitute the URL provided by me above in step #2 instead of Jason'
 <h4 align="left">5. Chicklet Javascript Generator.</h4>
 <p>To access this service, use the following URL: <b><a href="http://www.shaftek.org/code/singlesub/singlesub.pl?type=chicklet&amp;feed=http://sourceforge.net/export/rss2_projnews.php?group_id=151486">http://www.shaftek.org/code/singlesub/singlesub.pl?type=chicklet&amp;feed=http://sourceforge.net/export/rss2_projnews.php?group_id=151486</a></b>.
 This service is modeled after the one made by <a href="http://www.kbcafe.com/rss/chicklet.aspx">KB Cafe</a>. The way it works is
-that it generates links to any aggregators that have the <b>iconUrl</b> includes in the OPML file defined above.
+that it generates links to any aggregators that have the <b>iconUrl</b> includes in the OPML file defined above. You can also optionally provide a URL to external OPML file in the format described above to be used
+for generating this list INSTEAD of the default file. This can be done by passing it as a <b>"opml_url="</b> parameter.
 To use it, includes the following in your HTML file:
 <br/><br/>
 
@@ -126,7 +129,8 @@ type="text/javascript" language="Javascript"></script>
 This service is modeled after <a href="http://purl.org/net/syndication/subscribe/">the Syndication Subscription Service</a>, 
 <a href="http://www.solosub.com">SoloSub</a> and <a href="http://www.multirss.com">MultiRss</a>.
 HOWEVER, the difference is that this HTML is automatically generated based on the data contained in
-the OPML file defined above. To use it, includes the following in your HTML file:
+the OPML file defined above. You can also optionally provide a URL to external OPML file in the format described above to be used
+for generating this list INSTEAD of the default file. This can be done by passing it as a <b>"opml_url="</b> parameter. To use it, includes the following in your HTML file:
 <br/><br/>
 <code>
 &lt;a href="http://www.shaftek.org/code/singlesub/singlesub.pl?type=html&amp;feed=http://sourceforge.net/export/rss2_projnews.php?group_id=151486"
