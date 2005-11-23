@@ -27,7 +27,7 @@
 <head>
     <title>List of Aggregator Subscribe URLs</title>
     <dateCreated>Sun, 16 Oct 2005 19:01:25 GMT</dateCreated>
-    <dateModified>Sun, 30 Oct 2005 21:12:00 GMT</dateModified>
+    <dateModified>Wed, 23 Nov 2005 02:20:00 GMT</dateModified>
     <ownerName>Yakov Shafranovich</ownerName>
     <ownerEmail>code@shaftek.org</ownerEmail>
 </head>
@@ -35,6 +35,7 @@
     <outline text="Browsers">
         <outline text="Opera" htmlUrl="http://www.opera.com/"
 		type="subscribe" subscribeUrl=""
+		iconUrl="http://promote.opera.com/logos/Opera_logo1.gif"
 		escaped="false"/>
     </outline>
     <outline text="Desktop">
@@ -98,6 +99,11 @@
 		type="subscribe" subscribeUrl="rss://addrss/"
 		escaped="true"/>
     </outline>
+    <outline text="Email">
+	<outline text="Rmail" htmlUrl="http://r-mail.org"
+	    type="subscribe" subscribeUrl="http://www.r-mail.org/bm.aspx?rss="
+	    escaped="true"/>
+    </outline>
     <outline text="Web-based">
         <outline text="BlogLines" htmlUrl="http://www.bloglines.com/"
 		type="subscribe" subscribeUrl="http://www.bloglines.com/sub/"
@@ -110,7 +116,8 @@
 		type="subscribe" subscribeUrl="http://www.feedmarker.com/admin.php?do=add_feed&amp;url="
 		escaped="true"/>
 	<outline text="Google Reader" htmlUrl="http://reader.google.com"
-		type="subscribe" subscribeUrl="http://www.google.com/reader/preview/*/feed/"
+		type="subscribe" subscribeUrl="http://fusion.google.com/add?feedurl="
+		iconUrl="http://www.google.com/webmasters/add-to-google-plus.gif"
 		escaped="false"/>
         <outline text="IzyNews" htmlUrl="http://www.izynews.com/en/"
 		type="subscribe" subscribeUrl="http://izynews.com/qs.aspx?s="
